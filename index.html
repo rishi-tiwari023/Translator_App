@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="from">
+                <textarea id="text-from"></textarea>
+            </div>
+            <div class="to">
+                <textarea id="text-to"></textarea>
+            </div>
+        </div>
+        <div class="controls">
+            <ul>
+                <li class="button-from">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-regular fa-clipboard"></i>
+                    <select name="lang-from" id="lang-from">
+                        <option value="eng">ENGLISH</option>
+                        <option value="hi">HINDI</option>
+                    </select>
+
+
+                </li>
+                <li>
+                    <i class="fa-solid fa-arrows-left-right"></i>
+                </li>
+                <li class="button-to">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <select name="lang-to" id="lang-to">
+                        <option value="hi">HINDI</option>
+                        <option value="eng">ENGLISH</option>
+                    </select>
+                    <i class="fa-regular fa-clipboard"></i>
+                </li>
+            </ul>
+
+
+        </div>
+        <button class="translate-btn">Translate</button>
+
+    </div>
+
+</body>
+
+</html>
